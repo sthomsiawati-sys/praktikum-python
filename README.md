@@ -160,3 +160,4 @@ Melalui proyek praktikum ini, mahasiswa mempelajari cara membuat dan menjalankan
 
 Penggunaan Git dan GitHub juga membantu mencatat perubahan kode, menyimpan riwayat commit, dan mengunggah proyek ke repositori online agar lebih mudah dikelola dan dikembangkan.
 
+Dokumentasi ini dibuat untuk memenuhi tugas praktikum PBO.
