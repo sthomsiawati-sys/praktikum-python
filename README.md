@@ -136,8 +136,8 @@ py halo.py
 Contoh keluaran program:
 
 ```text
-Masukkan nama Anda: Oca
-Halo, Oca! Selamat datang di praktikum Python.
+Masukkan nama Anda: Siti Homsiawati
+Halo, Siti Homsiawati! Selamat datang di praktikum Python.
 ```
 
 ### B. Menjalankan `tampil.py`
