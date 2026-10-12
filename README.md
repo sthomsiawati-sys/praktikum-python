@@ -21,7 +21,7 @@ Proyek ini juga menggunakan `requirements.txt` untuk menyimpan daftar dependensi
 - Git untuk mencatat riwayat perubahan kode.
 - GitHub untuk menyimpan repositori secara online.
 
-## 2. Membuat Virtual Environment
+## 3. Membuat Virtual Environment
 
 Virtual environment digunakan untuk memisahkan paket yang dibutuhkan oleh proyek ini dari proyek Python lainnya.
 
@@ -47,7 +47,7 @@ python3 -m venv .venv
 
 Setelah perintah berhasil dijalankan, folder `.venv` akan dibuat di dalam folder proyek.
 
-## 3. Mengaktifkan Virtual Environment
+## 4. Mengaktifkan Virtual Environment
 
 Aktifkan virtual environment sesuai sistem operasi yang digunakan.
 
@@ -85,7 +85,7 @@ Untuk menonaktifkan virtual environment, gunakan:
 deactivate
 ```
 
-## 4. Menginstal Dependensi
+## 5. Menginstal Dependensi
 
 Pastikan virtual environment sudah aktif sebelum menginstal paket.
 
@@ -115,7 +115,7 @@ Jika virtual environment dibuat ulang atau proyek dipindahkan ke komputer lain, 
 pip install -r requirements.txt
 ```
 
-## 5. Menjalankan Program
+## 6. Menjalankan Program
 
 ### A. Menjalankan `halo.py`
 
@@ -154,7 +154,7 @@ Program akan menampilkan tabel dengan kolom nomor, alat, dan fungsi, yang berisi
 
 Pastikan library `rich` sudah terinstal di virtual environment sebelum menjalankan program ini.
 
-## 10. Kesimpulan
+## 7. Kesimpulan
 
 Melalui proyek praktikum ini, mahasiswa mempelajari cara membuat dan menjalankan program Python, mengelola dependensi menggunakan virtual environment dan pip, serta mendokumentasikan proyek dengan README.md.
 
