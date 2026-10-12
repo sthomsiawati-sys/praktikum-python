@@ -1,6 +1,7 @@
 # Praktikum Python: IDE, Virtual Environment, dan Git
 
-## Deskripsi Proyek
+## 1. Deskripsi Proyek
+
 Proyek ini merupakan tugas praktikum mata kuliah Pemrograman Berorientasi Objek (PBO) yang bertujuan untuk mempelajari dasar-dasar pemrograman Python menggunakan Visual Studio Code (VS Code), pengelolaan dependensi dengan virtual environment, serta pengelolaan versi kode menggunakan Git dan GitHub.
 
 Proyek ini memiliki dua program utama:
@@ -10,7 +11,8 @@ Proyek ini memiliki dua program utama:
 
 Proyek ini juga menggunakan `requirements.txt` untuk menyimpan daftar dependensi yang dibutuhkan agar program dapat dijalankan kembali di komputer lain.
 
-## Teknologi yang Digunakan
+## 2. Teknologi yang Digunakan
+
 - Python versi 3.10 atau lebih baru.
 - Visual Studio Code (VS Code) sebagai IDE.
 - Virtual environment (`venv`) untuk mengisolasi dependensi proyek.
@@ -19,33 +21,50 @@ Proyek ini juga menggunakan `requirements.txt` untuk menyimpan daftar dependensi
 - Git untuk mencatat riwayat perubahan kode.
 - GitHub untuk menyimpan repositori secara online.
 
-## Membuat Virtual Environment
+## 2. Membuat Virtual Environment
+
 Virtual environment digunakan untuk memisahkan paket yang dibutuhkan oleh proyek ini dari proyek Python lainnya.
 
 Pastikan terminal berada di dalam folder `praktikum-python`.
 
 **Windows:**
+
+```bash
 py -m venv .venv
+```
+
 Alternatifnya:
+
+```bash
 python -m venv .venv
+```
 
 **macOS atau Linux:**
+
+```bash
 python3 -m venv .venv
+```
 
 Setelah perintah berhasil dijalankan, folder `.venv` akan dibuat di dalam folder proyek.
 
-## Mengaktifkan Virtual Environment
+## 3. Mengaktifkan Virtual Environment
+
 Aktifkan virtual environment sesuai sistem operasi yang digunakan.
 
 **Windows PowerShell:**
+
 ```powershell
 .venv\Scripts\Activate.ps1
 ```
+
 **Windows Command Prompt (CMD):**
+
 ```bat
 .venv\Scripts\activate.bat
 ```
+
 **macOS atau Linux:**
+
 ```bash
 source .venv/bin/activate
 ```
@@ -66,23 +85,37 @@ Untuk menonaktifkan virtual environment, gunakan:
 deactivate
 ```
 
-## Menginstal Dependensi
+## 4. Menginstal Dependensi
+
 Pastikan virtual environment sudah aktif sebelum menginstal paket.
+
 Untuk menginstal library `rich`, jalankan:
+
+```bash
 python -m pip install rich
+```
 
 Periksa paket yang sudah terinstal dengan perintah:
+
+```bash
 pip list
+```
 
 Simpan daftar dependensi ke dalam file `requirements.txt` menggunakan:
+
+```bash
 pip freeze > requirements.txt
+```
 
 File `requirements.txt` akan berisi nama paket beserta versinya.
 
 Jika virtual environment dibuat ulang atau proyek dipindahkan ke komputer lain, instal kembali semua dependensi dengan:
-pip install -r requirements.txt
 
-## Menjalankan Program
+```bash
+pip install -r requirements.txt
+```
+
+## 5. Menjalankan Program
 
 ### A. Menjalankan `halo.py`
 
@@ -103,8 +136,8 @@ py halo.py
 Contoh keluaran program:
 
 ```text
-Masukkan nama Anda: Siti Homsiawati
-Halo, Siti Homsiawati! Selamat datang di praktikum Python.
+Masukkan nama Anda: Oca
+Halo, Oca! Selamat datang di praktikum Python.
 ```
 
 ### B. Menjalankan `tampil.py`
@@ -121,7 +154,7 @@ Program akan menampilkan tabel dengan kolom nomor, alat, dan fungsi, yang berisi
 
 Pastikan library `rich` sudah terinstal di virtual environment sebelum menjalankan program ini.
 
-##  Kesimpulan
+## 10. Kesimpulan
 
 Melalui proyek praktikum ini, mahasiswa mempelajari cara membuat dan menjalankan program Python, mengelola dependensi menggunakan virtual environment dan pip, serta mendokumentasikan proyek dengan README.md.
 
